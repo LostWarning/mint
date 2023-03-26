@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	app "github.com/LostWarning/mint/pkg/app/mint"
 )
 
 func main() {
-	fmt.Println("Welcome to mint")
+	app.Run()
 }
